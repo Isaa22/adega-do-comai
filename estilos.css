@@ -7,14 +7,14 @@ body {
 }
 
 input[type=checkbox] {
-  border: 2px solid var(--marrom-claro);
+  border: 2px solid var(--preto-);
   box-shadow: none;
 }
 
 input[type=checkbox]:checked,
 input[type="checkbox"]:focus {
-  background-color: var(--marrom-claro);
-  border-color: var(--marrom-claro);
+  background-color: var(--preto-);
+  border-color: var(--preto-);
   box-shadow: none;
   outline: none;
 }
@@ -58,16 +58,16 @@ input[type="checkbox"]:focus {
 }
 
 .botao-padrao {
-  background-color: var(--marrom-claro);
+  background-color: var(--preto-);
   color: black;
 }
 
 .botao-padrao:hover {
-  background-color: var(--marrom-escuro);
+  background-color: var(--preto-);
 }
 
 .input-range::-webkit-slider-thumb, footer {
-  background-color: var(--marrom-claro);
+  background-color: var(--preto-);
 }
 
 [data-bs-theme="dark"] {
