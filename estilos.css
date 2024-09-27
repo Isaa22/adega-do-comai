@@ -7,14 +7,14 @@ body {
 }
 
 input[type=checkbox] {
-  border: 2px solid var(--preto-);
+  border: 2px solid var(--branco-);
   box-shadow: none;
 }
 
 input[type=checkbox]:checked,
 input[type="checkbox"]:focus {
-  background-color: var(--preto-);
-  border-color: var(--preto-);
+  background-color: var(--branco-);
+  border-color: var(--branco-);
   box-shadow: none;
   outline: none;
 }
@@ -58,25 +58,25 @@ input[type="checkbox"]:focus {
 }
 
 .botao-padrao {
-  background-color: var(--preto-);
+  background-color: var(--banco-);
   color: black;
 }
 
 .botao-padrao:hover {
-  background-color: var(--preto-);
+  background-color: var(--branco-);
 }
 
 .input-range::-webkit-slider-thumb, footer {
-  background-color: var(--preto-);
+  background-color: var(--branco-);
 }
 
 [data-bs-theme="dark"] {
-  color: black;
+  color: white;
   .nav-link, .card-body, .offcanvas, .accordion, .btn {
     --bs-nav-link-color: white;
-    --bs-card-color: black;
+    --bs-card-color: white;
     --bs-offcanvas-color: white;
     --bs-body-color: white;
-    --bs-body-color: black;
+    --bs-body-color: white;
   }
 }
