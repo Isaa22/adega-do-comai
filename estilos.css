@@ -71,12 +71,12 @@ input[type="checkbox"]:focus {
 }
 
 [data-bs-theme="dark"] {
-  color: white;
+  color: black;
   .nav-link, .card-body, .offcanvas, .accordion, .btn {
     --bs-nav-link-color: white;
-    --bs-card-color: white;
+    --bs-card-color: black;
     --bs-offcanvas-color: white;
     --bs-body-color: white;
-    --bs-body-color: white;
+    --bs-body-color: black;
   }
 }
