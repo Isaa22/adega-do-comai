@@ -58,16 +58,16 @@ input[type="checkbox"]:focus {
 }
 
 .botao-padrao {
-  background-color: var(--branco-);
+  background-color: var(--preto-);
   color: black;
 }
 
 .botao-padrao:hover {
-  background-color: var(--branco-);
+  background-color: var(--preto-);
 }
 
 .input-range::-webkit-slider-thumb, footer {
-  background-color: var(--branco-);
+  background-color: var(--preto-);
 }
 
 [data-bs-theme="dark"] {
