@@ -7,14 +7,14 @@ body {
 }
 
 input[type=checkbox] {
-  border: 2px solid var(--preto-);
+  border: 2px solid var(--branco-);
   box-shadow: none;
 }
 
 input[type=checkbox]:checked,
 input[type="checkbox"]:focus {
-  background-color: var(--preto-);
-  border-color: var(--preto-);
+  background-color: var(--branco-);
+  border-color: var(--branco-);
   box-shadow: none;
   outline: none;
 }
